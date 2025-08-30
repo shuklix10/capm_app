@@ -25,7 +25,7 @@ st.sidebar.header("Data Source")
 data_source = st.sidebar.radio("Select Data Source", ("Use Local CSV", "Upload CSV", "Yahoo Finance"))
 risk_free_rate = st.sidebar.number_input("Risk-Free Rate (in %)", 0.0, 10.0, 2.0)
 
-local_csv_path = r"C:\Users\prakh\Downloads\Final-50-stocks.csv"
+local_csv_path = "Final-50-stocks.csv"
 
 # ------------------ Load Data ------------------
 if data_source == "Use Local CSV":
